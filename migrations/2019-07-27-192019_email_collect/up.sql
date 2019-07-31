@@ -1,0 +1,4 @@
+CREATE TABLE emails (
+  address VARCHAR PRIMARY KEY,
+  confirmed BOOLEAN NOT NULL DEFAULT 'f'
+)
